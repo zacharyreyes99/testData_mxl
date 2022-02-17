@@ -1,0 +1,274 @@
+{
+	"Component": {
+		"CICB": [
+			{
+				"Provide": {
+					"Call_invoke_IDs": "",
+					"Variable_access_IDs": "53114\n98247\n98810\n98811\n98812\n98813\n98814\n98815\n98816\n98817",
+					"_Num_call_invokes": "0",
+					"_Num_Variable_accesses": "10"
+				},
+				"Require": {
+					"Call_invoke_IDs": "",
+					"Variable_access_IDs": "98810\n98811",
+					"_Num_call_invokes": "0",
+					"_Num_Variable_accesses": "2"
+				},
+				"Point_Block": {
+					"Data": {
+						"Variable": [
+							{
+								"_Id": "98810",
+								"_Name": "ps_buffer_size",
+								"_Access": "Write",
+								"_Access_block": "(516,0)",
+								"_Home_block": "(516,0)"
+							},
+							{
+								"_Id": "98811",
+								"_Name": "PS_BUFFER_SIZE",
+								"_Access": "Read",
+								"_Access_block": "(516,0)",
+								"_Home_block": "(516,0)"
+							}
+						],
+						"_Data_owner": "VariableDeclaration",
+						"_Code_Loc": "(90,1),(90,52)"
+					},
+					"_Num_points": "1",
+					"_Braced": "Yes",
+					"_Code_Loc": "(33,1),(392,1)"
+				},
+				"_Id": "0",
+				"_Name": "Master"
+			},
+			{
+				"Provide": {
+					"Call_invoke_IDs": "1",
+					"Variable_access_IDs": "98818\n98819\n98820",
+					"_Num_call_invokes": "1",
+					"_Num_Variable_accesses": "3"
+				},
+				"Require": {
+					"Call_invoke_IDs": "",
+					"Variable_access_IDs": "98812\n98818\n98813\n98819\n98820",
+					"_Num_call_invokes": "0",
+					"_Num_Variable_accesses": "5"
+				},
+				"Point_Block": {
+					"Data": [
+						{
+							"Variable": [
+								{
+									"_Id": "98812",
+									"_Name": "save_argc",
+									"_Access": "Write",
+									"_Access_block": "(516,1)",
+									"_Home_block": "(516,0)"
+								},
+								{
+									"_Id": "98818",
+									"_Name": "argc",
+									"_Access": "Read",
+									"_Access_block": "(516,1)",
+									"_Home_block": "(516,1)"
+								}
+							],
+							"_Data_owner": "Expression",
+							"_Code_Loc": "(117,2),(117,18)"
+						},
+						{
+							"Variable": [
+								{
+									"_Id": "98813",
+									"_Name": "save_argv",
+									"_Access": "Write",
+									"_Access_block": "(516,1)",
+									"_Home_block": "(516,0)"
+								},
+								{
+									"_Id": "98819",
+									"_Name": "argv",
+									"_Access": "Read",
+									"_Access_block": "(516,1)",
+									"_Home_block": "(516,1)"
+								}
+							],
+							"_Data_owner": "Expression",
+							"_Code_Loc": "(118,2),(118,18)"
+						},
+						{
+							"Variable": {
+								"_Id": "98820",
+								"_Name": "argv",
+								"_Access": "Read",
+								"_Access_block": "(516,1)",
+								"_Home_block": "(516,1)"
+							},
+							"_Data_owner": "Jump",
+							"_Code_Loc": "(206,2),(206,13)"
+						}
+					],
+					"_Num_points": "3",
+					"_Braced": "Yes",
+					"_Code_Loc": "(117,2),(206,13)"
+				},
+				"_Id": "1",
+				"_Name": "save_ps_display_args"
+			},
+			{
+				"Provide": {
+					"Call_invoke_IDs": "2954\n9208\n9220",
+					"Variable_access_IDs": "98821\n98822\n98823",
+					"_Num_call_invokes": "3",
+					"_Num_Variable_accesses": "3"
+				},
+				"Require": {
+					"Call_invoke_IDs": "",
+					"Variable_access_IDs": "98821\n98822\n98823",
+					"_Num_call_invokes": "0",
+					"_Num_Variable_accesses": "3"
+				},
+				"Point_Block": {
+					"Data": [
+						{
+							"Variable": {
+								"_Id": "98821",
+								"_Name": "username",
+								"_Access": "Write",
+								"_Access_block": "(516,2)",
+								"_Home_block": "(516,2)"
+							},
+							"_Data_owner": "Expression",
+							"_Code_Loc": "(217,2),(217,18)"
+						},
+						{
+							"Variable": {
+								"_Id": "98822",
+								"_Name": "dbname",
+								"_Access": "Write",
+								"_Access_block": "(516,2)",
+								"_Home_block": "(516,2)"
+							},
+							"_Data_owner": "Expression",
+							"_Code_Loc": "(218,2),(218,16)"
+						},
+						{
+							"Variable": {
+								"_Id": "98823",
+								"_Name": "host_info",
+								"_Access": "Write",
+								"_Access_block": "(516,2)",
+								"_Home_block": "(516,2)"
+							},
+							"_Data_owner": "Expression",
+							"_Code_Loc": "(219,2),(219,19)"
+						}
+					],
+					"_Num_points": "3",
+					"_Braced": "Yes",
+					"_Code_Loc": "(217,2),(219,19)"
+				},
+				"_Id": "2",
+				"_Name": "init_ps_display"
+			},
+			{
+				"Provide": {
+					"Call_invoke_IDs": "2833\n2836\n3963\n3965\n9035\n9036\n9037\n9774\n9775\n9837\n9847\n9853\n9863\n9875\n9877\n9878",
+					"Variable_access_IDs": "",
+					"_Num_call_invokes": "16",
+					"_Num_Variable_accesses": "0"
+				},
+				"Require": {
+					"Call_invoke_IDs": "",
+					"Variable_access_IDs": "",
+					"_Num_call_invokes": "0",
+					"_Num_Variable_accesses": "0"
+				},
+				"Point_Block": {
+					"Conditional": {
+						"_Code_Loc": "(289,2),(290,9)"
+					},
+					"_Num_points": "1",
+					"_Braced": "Yes",
+					"_Code_Loc": "(289,2),(290,9)"
+				},
+				"_Id": "3",
+				"_Name": "set_ps_display"
+			},
+			{
+				"Provide": {
+					"Call_invoke_IDs": "9773\n12595\n12609",
+					"Variable_access_IDs": "98824",
+					"_Num_call_invokes": "3",
+					"_Num_Variable_accesses": "1"
+				},
+				"Require": {
+					"Call_invoke_IDs": "",
+					"Variable_access_IDs": "98824\n98814\n98815\n98816\n98817",
+					"_Num_call_invokes": "0",
+					"_Num_Variable_accesses": "5"
+				},
+				"Point_Block": {
+					"Data": [
+						{
+							"Variable": [
+								{
+									"_Id": "98824",
+									"_Name": "displen",
+									"_Access": "Write",
+									"_Access_block": "(516,4)",
+									"_Home_block": "(516,4)"
+								},
+								{
+									"_Id": "98814",
+									"_Name": "ps_buffer",
+									"_Access": "Read",
+									"_Access_block": "(516,4)",
+									"_Home_block": "(516,0)"
+								},
+								{
+									"_Id": "98815",
+									"_Name": "ps_buffer_fixed_size",
+									"_Access": "Read",
+									"_Access_block": "(516,4)",
+									"_Home_block": "(516,0)"
+								}
+							],
+							"_Data_owner": "Expression",
+							"_Code_Loc": "(388,2),(388,53)"
+						},
+						{
+							"Variable": [
+								{
+									"_Id": "98816",
+									"_Name": "ps_buffer",
+									"_Access": "Read",
+									"_Access_block": "(516,4)",
+									"_Home_block": "(516,0)"
+								},
+								{
+									"_Id": "98817",
+									"_Name": "ps_buffer_fixed_size",
+									"_Access": "Read",
+									"_Access_block": "(516,4)",
+									"_Home_block": "(516,0)"
+								}
+							],
+							"_Data_owner": "Jump",
+							"_Code_Loc": "(391,2),(391,41)"
+						}
+					],
+					"_Num_points": "2",
+					"_Braced": "Yes",
+					"_Code_Loc": "(388,2),(391,41)"
+				},
+				"_Id": "4",
+				"_Name": "get_ps_display"
+			}
+		],
+		"_Id": "516",
+		"_Name": "backend.utils.misc.ps_status.c",
+		"_Num_CICBs": "5"
+	}
+}

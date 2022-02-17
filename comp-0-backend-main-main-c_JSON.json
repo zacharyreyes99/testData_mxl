@@ -1,0 +1,440 @@
+{
+	"Component": {
+		"CICB": [
+			{
+				"Provide": {
+					"Call_invoke_IDs": "",
+					"Variable_access_IDs": "",
+					"_Num_call_invokes": "0",
+					"_Num_Variable_accesses": "0"
+				},
+				"Require": {
+					"Call_invoke_IDs": "",
+					"Variable_access_IDs": "",
+					"_Num_call_invokes": "0",
+					"_Num_Variable_accesses": "0"
+				},
+				"Point_Block": {
+					"_Num_points": "0",
+					"_Braced": "Yes",
+					"_Code_Loc": "(48,1),(398,1)"
+				},
+				"_Id": "0",
+				"_Name": "Master"
+			},
+			{
+				"Provide": {
+					"Call_invoke_IDs": "",
+					"Variable_access_IDs": "1\n2\n3\n4\n5",
+					"_Num_call_invokes": "0",
+					"_Num_Variable_accesses": "5"
+				},
+				"Require": {
+					"Call_invoke_IDs": "0\n1\n2\n3\n4\n5\n6\n7\n8\n9",
+					"Variable_access_IDs": "0\n1\n2\n3\n4\n5",
+					"_Num_call_invokes": "10",
+					"_Num_Variable_accesses": "6"
+				},
+				"Point_Block": {
+					"Data": [
+						{
+							"Variable": [
+								{
+									"_Id": "0",
+									"_Name": "progname",
+									"_Access": "Write",
+									"_Access_block": "(0,1)",
+									"_Home_block": "(281,0)"
+								},
+								{
+									"_Id": "1",
+									"_Name": "argv",
+									"_Access": "Read",
+									"_Access_block": "(0,1)",
+									"_Home_block": "(0,1)"
+								}
+							],
+							"_Data_owner": "Expression",
+							"_Code_Loc": "(61,2),(61,34)"
+						},
+						{
+							"Call": {
+								"_Id": "0",
+								"_Name": "startup_hacks",
+								"_Collect": "Absorbed",
+								"_Access_block": "(0,1)",
+								"_Home_block": "(0,2)"
+							},
+							"_Data_owner": "Expression",
+							"_Code_Loc": "(66,2),(66,25)"
+						},
+						{
+							"Variable": {
+								"_Id": "2",
+								"_Name": "argv",
+								"_Access": "Write",
+								"_Access_block": "(0,1)",
+								"_Home_block": "(0,1)"
+							},
+							"Call": {
+								"Data": {
+									"Variable": {
+										"_Id": "3",
+										"_Name": "argc",
+										"_Access": "Read",
+										"_Access_block": "(0,1)",
+										"_Home_block": "(0,1)"
+									},
+									"_Data_owner": "CallParamaters",
+									"_Code_Loc": "(79,2),(79,41)"
+								},
+								"_Id": "1",
+								"_Name": "save_ps_display_args",
+								"_Collect": "Absorbed",
+								"_Access_block": "(0,1)",
+								"_Home_block": "(516,1)"
+							},
+							"_Data_owner": "Expression",
+							"_Code_Loc": "(79,2),(79,41)"
+						},
+						{
+							"Variable": {
+								"_Id": "4",
+								"_Name": "argv",
+								"_Access": "Write",
+								"_Access_block": "(0,1)",
+								"_Home_block": "(0,1)"
+							},
+							"_Data_owner": "Expression",
+							"_Code_Loc": "(90,2),(90,60)"
+						},
+						{
+							"Call": {
+								"_Id": "2",
+								"_Name": "pg_perm_setlocale",
+								"_Collect": "Absorbed",
+								"_Access_block": "(0,1)",
+								"_Home_block": "(422,1)"
+							},
+							"_Data_owner": "Expression",
+							"_Code_Loc": "(114,2),(114,35)"
+						},
+						{
+							"Call": {
+								"_Id": "3",
+								"_Name": "pg_perm_setlocale",
+								"_Collect": "Absorbed",
+								"_Access_block": "(0,1)",
+								"_Home_block": "(422,1)"
+							},
+							"_Data_owner": "Expression",
+							"_Code_Loc": "(115,2),(115,33)"
+						},
+						{
+							"Call": {
+								"_Id": "4",
+								"_Name": "pg_perm_setlocale",
+								"_Collect": "Absorbed",
+								"_Access_block": "(0,1)",
+								"_Home_block": "(422,1)"
+							},
+							"_Data_owner": "Expression",
+							"_Code_Loc": "(126,2),(126,37)"
+						},
+						{
+							"Call": {
+								"_Id": "5",
+								"_Name": "pg_perm_setlocale",
+								"_Collect": "Absorbed",
+								"_Access_block": "(0,1)",
+								"_Home_block": "(422,1)"
+							},
+							"_Data_owner": "Expression",
+							"_Code_Loc": "(127,2),(127,36)"
+						},
+						{
+							"Call": {
+								"_Id": "6",
+								"_Name": "pg_perm_setlocale",
+								"_Collect": "Absorbed",
+								"_Access_block": "(0,1)",
+								"_Home_block": "(422,1)"
+							},
+							"_Data_owner": "Expression",
+							"_Code_Loc": "(128,2),(128,33)"
+						},
+						{
+							"Call": {
+								"_Id": "8",
+								"_Name": "check_root",
+								"_Collect": "Absorbed",
+								"_Access_block": "(0,1)",
+								"_Home_block": "(0,4)"
+							},
+							"_Data_owner": "Expression",
+							"_Code_Loc": "(157,2),(157,22)"
+						},
+						{
+							"Call": {
+								"Data": {
+									"Variable": {
+										"_Id": "5",
+										"_Name": "argc",
+										"_Access": "Read",
+										"_Access_block": "(0,1)",
+										"_Home_block": "(0,1)"
+									},
+									"_Data_owner": "CallParamaters",
+									"_Code_Loc": "(188,2),(188,34)"
+								},
+								"_Id": "9",
+								"_Name": "PostmasterMain",
+								"_Collect": "Emanated",
+								"_Access_block": "(0,1)",
+								"_Home_block": "(281,1)"
+							},
+							"_Data_owner": "Expression",
+							"_Code_Loc": "(188,2),(188,34)"
+						}
+					],
+					"Conditional": [
+						{
+							"Point_Block": {
+								"Conditional": [
+									{
+										"Point_Block": {
+											"Data": {
+												"Call": {
+													"_Id": "7",
+													"_Name": "help",
+													"_Collect": "Absorbed",
+													"_Access_block": "(0,1)",
+													"_Home_block": "(0,3)"
+												},
+												"_Data_owner": "Expression",
+												"_Code_Loc": "(144,4),(144,18)"
+											},
+											"_Num_points": "1",
+											"_Braced": "Yes",
+											"_Code_Loc": "(144,4),(145,11)"
+										},
+										"_Code_Loc": "(142,3),(146,3)"
+									},
+									{
+										"Point_Block": {
+											"_Num_points": "0",
+											"_Braced": "Yes",
+											"_Code_Loc": "(149,4),(150,11)"
+										},
+										"_Code_Loc": "(147,3),(151,3)"
+									}
+								],
+								"_Num_points": "2",
+								"_Braced": "Yes",
+								"_Code_Loc": "(142,3),(151,3)"
+							},
+							"_Code_Loc": "(140,2),(152,2)"
+						},
+						{
+							"_Code_Loc": "(179,2),(180,35)"
+						},
+						{
+							"_Code_Loc": "(182,2),(183,22)"
+						},
+						{
+							"_Code_Loc": "(185,2),(186,65)"
+						}
+					],
+					"_Num_points": "15",
+					"_Braced": "Yes",
+					"_Code_Loc": "(61,2),(188,34)"
+				},
+				"_Id": "1",
+				"_Name": "main"
+			},
+			{
+				"Provide": {
+					"Call_invoke_IDs": "0",
+					"Variable_access_IDs": "",
+					"_Num_call_invokes": "1",
+					"_Num_Variable_accesses": "0"
+				},
+				"Require": {
+					"Call_invoke_IDs": "",
+					"Variable_access_IDs": "",
+					"_Num_call_invokes": "0",
+					"_Num_Variable_accesses": "0"
+				},
+				"Point_Block": {
+					"_Num_points": "0",
+					"_Braced": "Yes",
+					"_Code_Loc": "(-1,-1),(-1,-1)"
+				},
+				"_Id": "2",
+				"_Name": "startup_hacks"
+			},
+			{
+				"Provide": {
+					"Call_invoke_IDs": "7",
+					"Variable_access_IDs": "",
+					"_Num_call_invokes": "1",
+					"_Num_Variable_accesses": "0"
+				},
+				"Require": {
+					"Call_invoke_IDs": "",
+					"Variable_access_IDs": "6\n7",
+					"_Num_call_invokes": "0",
+					"_Num_Variable_accesses": "2"
+				},
+				"Point_Block": {
+					"Data": [
+						{
+							"Variable": {
+								"_Id": "6",
+								"_Name": "progname",
+								"_Access": "Write",
+								"_Access_block": "(0,3)",
+								"_Home_block": "(281,0)"
+							},
+							"_Data_owner": "Expression",
+							"_Code_Loc": "(268,2),(268,57)"
+						},
+						{
+							"Variable": {
+								"_Id": "7",
+								"_Name": "progname",
+								"_Access": "Write",
+								"_Access_block": "(0,3)",
+								"_Home_block": "(281,0)"
+							},
+							"_Data_owner": "Expression",
+							"_Code_Loc": "(269,2),(269,53)"
+						}
+					],
+					"_Num_points": "2",
+					"_Braced": "Yes",
+					"_Code_Loc": "(268,2),(322,54)"
+				},
+				"_Id": "3",
+				"_Name": "help"
+			},
+			{
+				"Provide": {
+					"Call_invoke_IDs": "8",
+					"Variable_access_IDs": "",
+					"_Num_call_invokes": "1",
+					"_Num_Variable_accesses": "0"
+				},
+				"Require": {
+					"Call_invoke_IDs": "",
+					"Variable_access_IDs": "8",
+					"_Num_call_invokes": "0",
+					"_Num_Variable_accesses": "1"
+				},
+				"Point_Block": {
+					"Conditional": [
+						{
+							"Point_Block": {
+								"_Num_points": "0",
+								"_Braced": "Yes",
+								"_Code_Loc": "(333,3),(337,10)"
+							},
+							"_Code_Loc": "(331,2),(338,2)"
+						},
+						{
+							"Point_Block": {
+								"Data": {
+									"Variable": {
+										"_Id": "8",
+										"_Name": "progname",
+										"_Access": "Write",
+										"_Access_block": "(0,4)",
+										"_Home_block": "(281,0)"
+									},
+									"_Data_owner": "Expression",
+									"_Code_Loc": "(350,3),(351,16)"
+								},
+								"_Num_points": "1",
+								"_Braced": "Yes",
+								"_Code_Loc": "(350,3),(352,10)"
+							},
+							"_Code_Loc": "(348,2),(353,2)"
+						}
+					],
+					"_Num_points": "2",
+					"_Braced": "Yes",
+					"_Code_Loc": "(331,2),(353,2)"
+				},
+				"_Id": "4",
+				"_Name": "check_root"
+			},
+			{
+				"Provide": {
+					"Call_invoke_IDs": "",
+					"Variable_access_IDs": "9\n11",
+					"_Num_call_invokes": "0",
+					"_Num_Variable_accesses": "2"
+				},
+				"Require": {
+					"Call_invoke_IDs": "",
+					"Variable_access_IDs": "9\n10\n11",
+					"_Num_call_invokes": "0",
+					"_Num_Variable_accesses": "3"
+				},
+				"Point_Block": {
+					"Data": [
+						{
+							"Variable": {
+								"_Id": "9",
+								"_Name": "pw",
+								"_Access": "Write",
+								"_Access_block": "(0,5)",
+								"_Home_block": "(0,5)"
+							},
+							"_Data_owner": "Expression",
+							"_Code_Loc": "(375,2),(375,26)"
+						},
+						{
+							"Variable": {
+								"_Id": "11",
+								"_Name": "pw",
+								"_Access": "Read",
+								"_Access_block": "(0,5)",
+								"_Home_block": "(0,5)"
+							},
+							"_Data_owner": "Jump",
+							"_Code_Loc": "(383,2),(383,28)"
+						}
+					],
+					"Conditional": {
+						"Point_Block": {
+							"Data": {
+								"Variable": {
+									"_Id": "10",
+									"_Name": "progname",
+									"_Access": "Write",
+									"_Access_block": "(0,5)",
+									"_Home_block": "(281,0)"
+								},
+								"_Data_owner": "Expression",
+								"_Code_Loc": "(378,3),(379,33)"
+							},
+							"_Num_points": "1",
+							"_Braced": "Yes",
+							"_Code_Loc": "(378,3),(380,10)"
+						},
+						"_Code_Loc": "(376,2),(381,2)"
+					},
+					"_Num_points": "3",
+					"_Braced": "Yes",
+					"_Code_Loc": "(373,2),(383,28)"
+				},
+				"_Id": "5",
+				"_Name": "get_current_username"
+			}
+		],
+		"_Id": "0",
+		"_Name": "backend.main.main.c",
+		"_Num_CICBs": "6"
+	}
+}
